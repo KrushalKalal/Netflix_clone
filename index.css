@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: #222;
+}
+.header_img img{
+    width: 100%;
+    height: 98.5vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    opacity: 1;
+    filter: brightness(30%);
+}
+
+a{
+    text-decoration: none;
+}
+
+.navbar{
+    position: absolute;
+    top:0;
+    width: 100%;
+    margin-top: -1.6%;
+    background-color: transparent !important;
+}
+
+.navbar-brand img{
+    width: 26%;
+    margin-left: 4.5%;
+
+}
+
+.btn{
+    margin-top: -7px;
+    margin-right: 30px;
+}
+
+.header_content{
+    position: absolute;
+    top:28%;
+    left:32.8%;
+    color: white;
+}
+.content_movie{
+    font-size:50px;
+    font-weight: 650;
+}
+.content_show{
+    font-size:50px;
+    font-weight: 650;
+    margin-left: 10%;
+    margin-top: -4%;
+}
+
+.content_cancel{
+    font-size: 26.3px;
+    font-weight: 500;
+    margin-left: 10%;
+    margin-top: 1%;
+}
+
+.content_member{
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: -13%;
+    margin-top: 3%;
+}
+
+.content_email{
+    margin-left: -16%;
+    margin-top: 2%;
+}
+
+.content_email input{
+    width:62%;
+    height: 8vh;
+    padding: 8px;
+    font-weight: 400;
+   
+}
+.content_email button{
+    width:28%;
+    height: 8vh;
+    font-size: 22px;
+    margin-left: -3px;
+    margin-top: -6px;
+}
+
+.content_email span{
+    margin-left: 5px;
+    font-size: 26px;
+}
+
+.tv_section{
+    width: 100%;
+    background-color: black;
+    margin-top: 0.7%;
+    padding-bottom: 3.5%;
+    
+}
+
+.tv_section .row{
+    width: 100%;
+}
+.tv_show_details{
+    margin-top: 9.5%;
+}
+.tv_section_content{
+   font-size: 50px;
+   font-weight: 650;
+   color: white;
+   margin-left: 15.5%;
+}
+.content_information{
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+    margin-left: 15.5%;
+}
+.tv_shows{
+    position: relative;
+    z-index: 1;
+}
+
+.content_img img{
+    width: 89%;
+    margin-left: 6%;
+}
+.content_video{
+    position: absolute;
+    top: 21.1%;
+    left: 19%;
+    z-index: -1;
+}
+.content_video video{
+    width: 84.1%;
+}
+
+.phone_section{
+    width: 100%;
+    background-color: black;
+    margin-top: 0.7%;
+    padding-bottom: 3.5%;
+}
+.phone_section .row{
+    width: 100%;
+  
+}
+
+.phone_img img{
+    width:80%;
+    margin-left:5%;
+    margin-top: 5%;
+}
+.phone_shows{
+    margin-top: 9.5%;
+}
+.phone_section_content{
+    font-size: 50px;
+    font-weight: 650;
+    color: white;
+    line-height: 1;
+ }
+ .phone_information{
+     font-size: 30px;
+     font-weight: 500;
+     color: white;
+     line-height: 1;
+     margin-top: 4%;
+ }
+ .pc_video{
+    position: absolute;
+    top: 11.1%;
+    left: 24%;
+    z-index: -1;
+ }
+ .pc_video video{
+    width: 70.1%;
+}
+
+footer{
+    background-color: black;
+    margin-top: 0.7%;
+    color: gray;
+    padding-top: 5%;
+    padding-left: 18%;
+    padding-bottom: 3%;
+}
+.footer_list>div>ul>li{
+    list-style-type: none;
+    padding-bottom: 5%;
+   
+}
+.footer_list>div>ul>li>a{
+    color: gray;
+    text-decoration: none;
+    font-size: 14px;
+}
+.footer_list>div>ul>li>a:hover{
+  text-decoration: underline;
+}
+
+.footer_list>div:nth-child(1){
+    margin-left: -2.8%;
+    margin-top: 2%;
+    width: 18.5% !important;
+}
+.footer_list>div:nth-child(2){
+    margin-top: 2%;
+    width: 18.5% !important;
+}
+.footer_list>div:nth-child(3){
+    margin-top: 2%;
+    width: 18.5% !important;
+}
+.footer_list>div:nth-child(4){
+    margin-top: 2%;
+    width: 18.5% !important;
+}
+.language {
+    margin-top: 1.5%;
+    margin-bottom: 3%;
+}
+.language span{
+    border: 1px solid white;
+    padding: 12px;
+   
+}
+.help{
+    font-size: 16px;
+    font-weight: 500;
+}
+.comapany{
+    font-size: 14px;
+}
+
+
+
+
+
